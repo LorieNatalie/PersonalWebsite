@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <h1>THE CODE TEMPTRESS....</h1>
+    <p>WHERE TECH MEETS TEMPTATION</p>
+    
+    <div id="posts">
+        <h2>My First Post</h2>
+        <p>This is the content of my first post. Isn’t it great?</p>
+    </div>
+    
+    <!-- About Me Section -->
+    <h1>WHO AM I ?</h1>
+    <button id="myButton">Click!</button>
+
+    <!-- Script to make the button work -->
+    <script>
+      const button = document.getElementById('myButton');
+
+      button.addEventListener('click', function() {
+        alert('Good job! You clicked the button!');
+      });
+    </script>
+</body>
+</html>
