@@ -1,61 +1,49 @@
 # My Flask Personal Website
 
 This is my personal website built using Flask on Linux.
-What I Have Done
+
+What I Have Done :
 
     Created a Flask app to serve my website.
     Made an HTML file for the webpage.
-    Set up a virtual environment called pw_env.
+    Set up a virtual environment called pw_env. #personalwebsite environment
     Learned how to run the website locally.
 
-How to Run the Website
-Prerequisites
+How to Run the Website.
 
-    Python 3 installed on your Linux system.
+Prerequisites:
+
+    Python 3 and Pip(Pythons package installer) installed on your Linux system.
+    
+# "Using the terminal" To Confirm the first step,![Guide Image](images/Guide0.png) if not installed try ![Guide Image](images/Guide1.png).
+
     Flask installed in your virtual environment (pw_env).
 
-Steps
+............................Procedures..........................................
 
-    Open your terminal.
+    -Open your terminal.
+    -Navigate to your project folder:
+    #I used#
+            cd ~/PW
 
-    Navigate to your project folder:
-
-          
-
-cd ~/PW
-
-      
-
-    Activate your virtual environment:
-
-          
-
-source pw_env/bin/activate
+    -Activate your virtual environment:
+                
+            source pw_env/bin/activate
 
       
+    -Set environment variables:
 
-    Set environment variables:
-
-          
-
-export FLASK_APP=website.py
-export FLASK_ENV=development
-
-      
+            export FLASK_APP=website.py
+            export FLASK_ENV=development
 
 
+Start the Flask server:
 
-    Start the Flask server:
+            flask run
 
-          
+    -Open your web browser and go to:
 
-flask run
-
-      
-
-    Open your web browser and go to:
-
-http://127.0.0.1:5000
+                    http://127.0.0.1:5000
 Notes:
 
     Refresh the page to see updates after editing files.
