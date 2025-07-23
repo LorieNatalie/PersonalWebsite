@@ -14,3 +14,11 @@ sleep 2
 
 # Open the webpage in your default browser
 xdg-open http://127.0.0.1:5000/
+
+
+
+
+
+
+
+#XDG (X Desktop Group) standards for desktop environments
