@@ -19,6 +19,8 @@ Prerequisites:
 
     Flask installed in your virtual environment (pw_env).
 
+# "Using the terminal" Create a virtual environment in your project to manage dependencies separately,(NB what i did is based on the guides,you can customize where ever you prefer)![Guide Image](images/Guide2.png) then install Flask,while the virtual environment is activated ![Guide Image](images/Guide3.png). Verify that Flask was installed successfully ![Guide Image](images/Guide4.png).
+
 ............................Procedures..........................................
 
     -Open your terminal.
