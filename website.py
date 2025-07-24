@@ -12,7 +12,7 @@ def home():
 def projects():
     return render_template('projects.html')
 
-@website.route('contact')
+@website.route('/contact')
 def contact():
     return render_template('contact.html')
 
