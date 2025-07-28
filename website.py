@@ -8,9 +8,21 @@ website = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@website.route('/about')
+def home():
+    return render_template('about.html')
+
+@website.route('/skills')
+def home():
+    return render_template('skills.html')
+
 @website.route('/projects')
 def projects():
     return render_template('projects.html')
+
+@website.route('/blog')
+def home():
+    return render_template('blog.html')
 
 @website.route('/contact')
 def contact():
