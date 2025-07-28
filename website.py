@@ -16,10 +16,6 @@ def home():
 def home():
     return render_template('skills.html')
 
-@website.route('/projects')
-def projects():
-    return render_template('projects.html')
-
 @website.route('/blog')
 def home():
     return render_template('blog.html')
