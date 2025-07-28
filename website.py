@@ -9,15 +9,15 @@ def home():
     return render_template('index.html')
 
 @website.route('/about')
-def home():
+def about():
     return render_template('about.html')
 
 @website.route('/skills')
-def home():
+def skills():
     return render_template('skills.html')
 
 @website.route('/blog')
-def home():
+def blog():
     return render_template('blog.html')
 
 @website.route('/contact')
